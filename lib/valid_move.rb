@@ -1,10 +1,10 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
   index = index.to_i - 1
-  if position_taken? == true
-    execute
+  if position_taken?(board, index) && index.between(0,8)
+    true
   else
-    print "You cannot make that move"
+    false
   end
 end
 
