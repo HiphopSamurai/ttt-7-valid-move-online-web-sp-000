@@ -4,6 +4,7 @@ def valid_move?()
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-def position_taken?()
-
+def postion_taken?(board, index)
+  array[index_number] == " " || array[index_number] == ''
+  || array[index_number] == nil
 end
