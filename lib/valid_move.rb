@@ -3,7 +3,7 @@ def valid_move?()
   if position_taken? == true
     execute
   else
-    
+
   end
 end
 
